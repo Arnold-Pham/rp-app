@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "roissy-parks-app",
-    "slug": "roissy-parks-app",
+    "name": "Roissy Parks",
+    "slug": "roissy-parks",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo_512.webp",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo_512.webp",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#e8eff5"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/logo_512.webp",
+        "backgroundColor": "#e8eff5"
+      },
+      "package": "com.roissyparks.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/logo_512.webp"
+    },
+    "owner": "disrupsion"
   }
 }
