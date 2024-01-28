@@ -52,7 +52,7 @@ const ReservationSummaryScreen = ({ reservationDetails, onGoBack }) => {
                 contacter le service client.
             </Text>
             <ImageBackground
-                source={require("../assets/kb2pVzs.webp")}
+                source={require("../assets/kb2pVzs.png")}
                 style={styles.bulle}
             >
                 <View style={styles.section}>

@@ -1,32 +1,35 @@
 {
-  "expo": {
-    "name": "Roissy Parks",
-    "slug": "roissy-parks",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/logo_512.webp",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/logo_512.webp",
-      "resizeMode": "contain",
-      "backgroundColor": "#e8eff5"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/logo_512.webp",
-        "backgroundColor": "#e8eff5"
-      },
-      "package": "com.roissyparks.app"
-    },
-    "web": {
-      "favicon": "./assets/logo_512.webp"
-    },
-    "owner": "disrupsion"
-  }
+    "expo": {
+        "name": "Roissy Parks",
+        "slug": "roissy-parks",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/logo_512.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/logo_512.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#e8eff5"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/logo_512.png",
+                "backgroundColor": "#e8eff5"
+            },
+            "package": "com.roissyparks.app"
+        },
+        "web": {
+            "favicon": "./assets/logo_512.png"
+        },
+        "owner": "disrupsion",
+        "extra": {
+            "eas": {
+                "projectId": "7c1d7131-5f56-4dd1-982d-7987bab7cf6c"
+            }
+        }
+    }
 }

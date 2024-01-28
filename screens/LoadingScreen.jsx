@@ -5,7 +5,7 @@ export default function LoadingScreen() {
     return (
         <View style={styles.container}>
             <Image
-                source={require("../assets/logo_512.webp")}
+                source={require("../assets/logo_512.png")}
                 style={styles.logo}
             />
             <ActivityIndicator size="large" color="#0267C1" />
